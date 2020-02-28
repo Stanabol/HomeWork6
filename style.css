@@ -51,6 +51,7 @@ p input {
     align-items: center;
     height: 50px;
     padding-left: 15px;
+     webkit-appearance: none;
 }
 
 input:focus {
