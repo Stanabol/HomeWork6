@@ -1,17 +1,11 @@
-body {
-background: url(img\background.png);
-/* opacity: 0.2; */
-}
-
 h1 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-line-height: 43px;
-text-align: center;
-
-color: #000000;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
 }
 
 img {
@@ -36,25 +30,13 @@ img {
     width: calc(calc(100% / 12) *12);
 }
 
-/* .name {
-    border: 2px solid #196CCF;
-    border-radius: 30px;
-    box-sizing: border-box;
-    font-family: Open Sans;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 25px;
-    font-size: 18px;
-    align-items: center;
-    display: flex;
-    color: rgba(0, 0, 0, 0.7);
-    margin: 15px;
-    margin-bottom: 47px;
-    height: 50px;
-} */
+p input {
+    width: 345px;
+    margin-left: 0px;
+}
 
 .name p {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
  input {
@@ -67,20 +49,17 @@ img {
     line-height: 25px;
     font-size: 18px;
     align-items: center;
-    /* display: flex; */
-    /* color: rgba(0, 0, 0, 0.7); */
-    /* margin: 15px; */
     margin-bottom: 47px;
     height: 50px;
     padding-left: 15px;
-    /* width: 345px; */
 }
 
 input:focus {
     background-color:lightgray;
     border: 2px solid greenyellow;
 }
-.send {
+
+.send input {
     background: #275FBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -100,6 +79,7 @@ input:focus {
     color: #FFFFFF;
     margin: 0;
 }
-.send:hover {
+
+.inputhover:hover {
     background-color: darkred;
 }
