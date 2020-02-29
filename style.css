@@ -52,6 +52,7 @@ p input {
     height: 50px;
     padding-left: 15px;
     -webkit-appearance: none;
+     color: #FFFFFF;
 }
 
 input:focus {
